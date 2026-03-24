@@ -34,13 +34,13 @@ function App() {
     let ext = '';
     
     if (fileName.endsWith('.pdf')) {
-        endpoint = 'https://kr-pro-api.onrender.com';
+        endpoint = 'https://kr-pro-api.onrender.com/translate-pptx';
         ext = '.docx'; // الـ PDF بيرجع وورد
     } else if (fileName.endsWith('.docx')) {
-        endpoint = 'https://kr-pro-api.onrender.com';
+        endpoint = 'https://kr-pro-api.onrender.com/translate-pptx';
         ext = '.docx';
     } else {
-        endpoint = 'https://kr-pro-api.onrender.com';
+        endpoint = 'https://kr-pro-api.onrender.com/translate-pptx';
         ext = '.pptx';
     }
 
